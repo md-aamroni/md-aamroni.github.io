@@ -61,30 +61,8 @@
 			</div>
 		</nav>
 	</header>
-	<section class="container" style="margin-top: 60px;">
-		<div id="carouselDarkVariant" class="carousel slide carousel-fade carousel-dark" data-mdb-ride="carousel">
-			<div class="carousel-indicators" id="carouselIndicators">
-				<!-- Indecator Append Here.. -->
-			</div>
-			<div class="carousel-inner" id="carouselInner">
-				<!-- Carousel Image Appear Here.. -->
-			</div>
-
-			<!-- Controls -->
-			<button class="carousel-control-prev" type="button" data-mdb-target="#carouselBasicExample"
-				data-mdb-slide="prev">
-				<span class="carousel-control-prev-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Previous</span>
-			</button>
-			<button class="carousel-control-next" type="button" data-mdb-target="#carouselBasicExample"
-				data-mdb-slide="next">
-				<span class="carousel-control-next-icon" aria-hidden="true"></span>
-				<span class="visually-hidden">Next</span>
-			</button>
-		</div>
-	</section>
 	<div class="container">
-		<div class="d-flex justify-content-center align-items-center" style="height: 35vh;">
+		<div class="d-flex justify-content-center align-items-center" style="height: 45vh;">
 			<div class="text-center">
 				<img class="mb-4" src="https://mdbootstrap.com/img/logo/mdb-transparent-250px.png"
 					style="width: 250px; height: 90px;" />
@@ -174,96 +152,11 @@
 		</div>
 	</div>
 
-	<div class="container py-4">
-		<h2 class="text-center">Fancy display heading</h2>
+	<div class="container py-5">
+		<h2 class="text-center">Project Gallary Overview</h2>
 		<div class="text-center fs-6 text-muted pb-3">With faded secondary text</div>
-
-		<div class="row p-2">
-			<div class="col-sm-4">
-				<a class="ripple" href="#!">
-					<img alt="example" class="img-fluid rounded"
-						src="https://mdbootstrap.com/img/new/standard/city/043.jpg" />
-				</a>
-			</div>
-			<div class="col-sm-4">
-				<a class="ripple" href="#!">
-					<img alt="example" class="img-fluid rounded"
-						src="https://mdbootstrap.com/img/new/standard/city/043.jpg" />
-				</a>
-			</div>
-			<div class="col-sm-4">
-				<a class="ripple" href="#!">
-					<img alt="example" class="img-fluid rounded"
-						src="https://mdbootstrap.com/img/new/standard/city/043.jpg" />
-				</a>
-			</div>
-		</div>
-		<div class="row p-2">
-			<div class="col-sm-4">
-				<a class="ripple" href="#!">
-					<img alt="example" class="img-fluid rounded"
-						src="https://mdbootstrap.com/img/new/standard/city/043.jpg" />
-				</a>
-			</div>
-			<div class="col-sm-4">
-				<a class="ripple" href="#!">
-					<img alt="example" class="img-fluid rounded"
-						src="https://mdbootstrap.com/img/new/standard/city/043.jpg" />
-				</a>
-			</div>
-			<div class="col-sm-4">
-				<a class="ripple" href="#!">
-					<img alt="example" class="img-fluid rounded"
-						src="https://mdbootstrap.com/img/new/standard/city/043.jpg" />
-				</a>
-			</div>
-		</div>
-	</div>
-
-
-
-
-
-
-
-
-
-
-
-	<div class="container">
-		<div class="row">
-			<div class="col-4 offset-4 align-self-center">
-				<form>
-					<div class="text-center mb-3">
-						<p>Get connected with us on social networks:</p>
-						<button type="button" class="btn btn-primary btn-floating mx-1">
-							<i class="fab fa-facebook-f"></i>
-						</button>
-						<button type="button" class="btn btn-primary btn-floating mx-1">
-							<i class="fab fa-google"></i>
-						</button>
-						<button type="button" class="btn btn-primary btn-floating mx-1">
-							<i class="fab fa-twitter"></i>
-						</button>
-						<button type="button" class="btn btn-primary btn-floating mx-1">
-							<i class="fab fa-github"></i>
-						</button>
-					</div>
-					<p class="text-center">or:</p>
-					<div class="form-outline mb-4">
-						<input type="email" id="loginName" class="form-control" />
-						<label class="form-label" for="loginName">Email or username</label>
-					</div>
-					<div class="form-outline mb-4">
-						<input type="password" id="loginPassword" class="form-control" />
-						<label class="form-label" for="loginPassword">Password</label>
-					</div>
-					<button type="submit" class="btn btn-primary btn-block mb-4">Contact Now</button>
-					<div class="text-center">
-						<p>find me the following <a href="https://goo.gl/maps/5KNCEGbgnkbBrEvZ9">Location</a> and stay with me</p>
-					</div>
-				</form>
-			</div>
+		<div class="row" id="projectGallary">
+			<!-- Project Images Render Here.. -->
 		</div>
 	</div>
 	<div class="container">
@@ -273,7 +166,30 @@
 			</div>
 		</div>
 	</div>
-	<footer class="text-center text-white fixed-bottom bg-light text-muted">
+	<footer class="text-center text-white bg-light text-muted">
+		<div class="text-center mb-1 pt-2">
+			<p>Get connected with us on social networks:</p>
+			<button type="button" class="btn btn-primary btn-floating mx-1">
+				<i class="fab fa-facebook-f"></i>
+			</button>
+			<button type="button" class="btn btn-primary btn-floating mx-1">
+				<i class="fab fa-google"></i>
+			</button>
+			<button type="button" class="btn btn-primary btn-floating mx-1">
+				<i class="fab fa-twitter"></i>
+			</button>
+			<button type="button" class="btn btn-primary btn-floating mx-1">
+				<i class="fab fa-github"></i>
+			</button>
+		</div>
+		<p class="text-center my-2">or:</p>
+		<form action="" class="text-center" method="POST" autocomplete="off">
+			<div class="form-outline mb-4 d-inline-flex ">
+				<input type="email" id="form5Example2" class="form-control" />
+				<label class="form-label" for="form5Example2">Email address</label>
+			</div>
+			<button type="submit" class="btn btn-primary mb-4">Subscribe</button>
+		</form>
 		<div class="text-center p-2">
 			All Rights Reserved - Copyright © <span id="copyright"></span>
 			<a class="text-reset fw-bold" href="https://aamroni.net">aamroni.net</a>
@@ -283,29 +199,16 @@
 	<script src="assets/js/mdb.min.js" type="text/javascript"></script>
 	<script src="assets/js/google-map.js"></script>
 	<script async defer
-		src="http://maps.googleapis.com/maps/api/js?key=AIzaSyC_G1wZMKrwyHHOteMdVwCy82Qm4Pp7vyI&amp;callback=initMap">
+		src="https://maps.googleapis.com/maps/api/js?key=AIzaSyC_G1wZMKrwyHHOteMdVwCy82Qm4Pp7vyI&amp;callback=initMap">
 	</script>
 	<script type="text/javascript">
 		const copyright = (new Date().getFullYear() > 2020) ? '2020 - ' + new Date().getFullYear() : new Date().getFullYear();
 		$('#copyright').html(copyright);
 
 		for (let i = 0; i < 16; i++) {
-			let isActive = (i === 0) ? 'class="active" aria-current="true"' : '';
-			let isImageActive = (i === 0) ? 'active' : '';
-
-			$('#carouselIndicators').append(`
-				<button type="button"
-					data-mdb-target="#carouselDarkVariant"
-					data-mdb-slide-to="${i}" ${isActive}
-					aria-label="Slide ${i + 1}">
-				</button>
-			`);
-
-			$('#carouselInner').append(`
-				<div class="carousel-item ${isImageActive}">
-					<img src="assets/images/slider-${i + 1}.png" class="d-block w-100 img-fluid" alt="Slider Image ${i + 1}" />
-				</div>
-			`);
+			$('#projectGallary').append(
+				'<div class="col-sm-4 py-2"><a class="ripple" href="#!"><img alt="example" class="img-fluid rounded" src="assets/images/slider-' +
+				(i + 1) + '.png" /></a></div>');
 		}
 
 	</script>
