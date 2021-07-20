@@ -1,0 +1,27 @@
+[
+	{
+		"technology": "PHP",
+		"image": "./assets/images/php.svg",
+		"purpose": "All kind of web application development purpose"
+	},
+	{
+		"technology": "Laravel",
+		"image": "./assets/images/laravel.svg",
+		"purpose": "Large scale web application through PHP"
+	},
+	{
+		"technology": "Python",
+		"image": "./assets/images/python.svg",
+		"purpose": "Web application development purpose using Django"
+	},
+	{
+		"technology": "JavaScript",
+		"image": "./assets/images/javascript.svg",
+		"purpose": "Interactive Single Page Application Development"
+	},
+	{
+		"technology": "Firebase",
+		"image": "./assets/images/firebase.svg",
+		"purpose": "Realtime Database Management"
+	}
+]

@@ -1,0 +1,46 @@
+[
+	{
+		"title": "Fixaps",
+		"image": "./assets/images/project-3.png",
+		"module": "Provider Service Solutions",
+		"responsibility": "Web Application Developer",
+		"technology": "Java, Codeigniter (PHP Framework), MySQL",
+		"status": "On Going",
+		"badgeColor": "primary",
+		"client": "Fleet BD",
+		"website": "http://fixaps.com"
+	},
+	{
+		"title": "Mediraj",
+		"image": "./assets/images/project-2.png",
+		"module": "Medical and Doctor Services",
+		"responsibility": "Web Application Developer",
+		"technology": "Java, Core PHP 7.4+, MySQL",
+		"status": "Completed",
+		"badgeColor": "success",
+		"client": "Shakil Hossain",
+		"website": "https://mediraj.com"
+	},
+	{
+		"title": "Inventory Management",
+		"image": "./assets/images/project-1.png",
+		"module": "Single Vendor Product Management Solution",
+		"responsibility": "Web Application Developer",
+		"technology": "Core PHP 7.4+, Firebase",
+		"status": "Completed",
+		"badgeColor": "success",
+		"client": "Akash Karim",
+		"website": "https://inventory.mediraj.com"
+	},
+	{
+		"title": "ProgoBD",
+		"image": "./assets/images/project-4.png",
+		"module": "Hospital Management System",
+		"responsibility": "Web Application Developer",
+		"technology": "Core PHP 7.4+, MySQL",
+		"status": "On Going",
+		"badgeColor": "primary",
+		"client": "Akash Karim",
+		"website": "https://progobd.com"
+	}
+]
