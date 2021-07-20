@@ -1,0 +1,38 @@
+[
+	{
+		"title": "Facebook",
+		"url": "javascript:;",
+		"icon": "fab fa-facebook-f",
+		"color": "#3b5998"
+	},
+	{
+		"title": "Twitter",
+		"url": "javascript:;",
+		"icon": "fab fa-twitter",
+		"color": "#55acee"
+	},
+	{
+		"title": "Google",
+		"url": "javascript:;",
+		"icon": "fab fa-google",
+		"color": "#dd4b39"
+	},
+	{
+		"title": "Instagram",
+		"url": "javascript:;",
+		"icon": "fab fa-instagram",
+		"color": "#ac2bac"
+	},
+	{
+		"title": "LinkedIn",
+		"url": "javascript:;",
+		"icon": "fab fa-linkedin-in",
+		"color": "#0082ca"
+	},
+	{
+		"title": "Github",
+		"url": "https://md-aamroni.github.io",
+		"icon": "fab fa-github",
+		"color": "#333333"
+	}
+]

@@ -1,0 +1,20 @@
+[
+	{
+		"title": "info.aamroni@gmail.com",
+		"data": "info.aamroni@gmail.com",
+		"type": "mailto:",
+		"image": "./assets/images/email.svg"
+	},
+	{
+		"title": "+880 1316-440504",
+		"data": "+880 1316-440504",
+		"type": "tel:",
+		"image": "./assets/images/phone.svg"
+	},
+	{
+		"title": "md.aamroni",
+		"data": "live:.cid.5ed7daebee5e7820",
+		"type": "skype:",
+		"image": "./assets/images/skype.svg"
+	}
+]
